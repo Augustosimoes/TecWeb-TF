@@ -1,83 +1,89 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-  <head>
-    <title>
-        TEC.HACKING
-    </title>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Página de exemplo</title>
+        <style type="text/css">
+            *{ /*Formata todos os elementos da página*/
+                padding:0px; /*espaço entre a borda e o conteúdo do elemento*/
+                margin:0px; /*espaço entre a borda e os elementos externos*/
+            }
+            #topo{
+                width: 100%; /*largura*/
+                height: 120px; /*altura*/
+                text-align: center; /*alinhamento do texto*/
+                clear: both; /*não permite elementos flutuantes ao lado*/
+                background-color: #cccccc; /*cor de fundo*/
+            }
+            #menu{
+                height: 50px; /*altura*/
+                text-align: center; /*alinhamento do texto*/
+                padding: 10px; /*espaço entre a borda e o conteúdo do elemento*/
+                background-color: #ffcc00; /*cor de fundo*/
+            }
+            #meio{
+                width: 100%; /*largura*/
+                background-color: #f90; /*cor de fundo*/
+                height: 80%;; /*altura*/
+            }
+            #lateral{
+                float:right; /*define que o elemento deve flutuar à direita*/
+                background-color: #ff6600; /*cor de fundo*/
+                padding: 10px; /*espaço entre a borda e o conteúdo do elemento*/
+                width: 15% /*largura*/
+            }
+            #conteudo{
+                padding: 10px; /*espaço entre a borda e o conteúdo do elemento*/
+                width: 80%; /*largura*/
+                float:left; /*define que o elemento deve flutuar à esquerda*/
+                background-color: #999999; /*cor de fundo*/
+            }
+            #rodape{
+                clear: both; /*não permite elementos flutuantes ao lado*/
+                text-align: center; /*alinhamento do texto*/
+                padding: 10px; /*espaço entre a borda e o conteúdo do elemento*/
+                background-color: #cccccc; /*cor de fundo*/
+            }
+        </style>
+    </head>
+    <body>
 
-  </head>
-  <body>
-
-    <header>
-      <h1>
-        TEC.HACKING
-      </h1>
+    <header id="topo">
+        <h1>Topo da página</h1>
     </header>
 
-    <nav>
-      <ul>
-        <li><a href="https://brazilhell.github.io/TecWeb-TF/listadecursos.html">Cursos</a></li>
-        <li><a href="https://brazilhell.github.io/TecWeb-TF/noticias.html">Noticias</a></li>
-        <li><a href="https://brazilhell.github.io/TecWeb-TF/Disciplinas.html">Disciplinas</a></li>
-        <li><a href="https://brazilhell.github.io/TecWeb-TF/Detalhesdocurso.html">Detalhes</a></li>
-      </ul>
+    <nav id="menu">
+        <a href="#">Menu 1</a>
+        <a href="#">Menu 2</a>
+        <a href="#">Menu 3</a>
+        <a href="#">Menu 4</a>
+        <a href="#">Menu 5</a>
     </nav>
 
-    <section>
-      <h2>
-        O que é TEC.HACKING ?
-      </h2>
-      <article>
-        <h3>
-          Quem somos...
-        </h3>
-        <p>
-          A TEC.HACKING é uma iniciativa de estudo alternativo focada em inovação tecnológica, e por isso buscamos sempre estar a frente das faculdades, ou centros de estudos,<br>
-          em suas metodologias de ensino, com professores especializados nas mais diversas areas da tecnologia, e sendo atuantes na area ou com projetos significativos no meio,<br>
-          trazendo para nossos alunos o que há de melhor em termos de ensino, metodo de ensino e areas de espcializações...<br>
-          e como nosso foco e inovação atrelada a tecnologia, oferemos uma gama de cursos exclusivos <strong>TEC.HACKING</strong>.<br>
-        </p>
-        <h3>
-          Nosso Valor...
-        </h3>
-        <p>
-          Mais do que ser diferente, mas fazer a diferença no mundo de iguais !
-        </p>
-      </article>
-    </section>
-    <section>
-      <h2>O que dizem sobre nós...</h2>
-      <article>
-        <h2>
-          Mario Andrade - SP
-        </h2>
-        <p>
-          Curso Super aprovado, super indico !!!
-        </p>
-      </article>
-      <article>
-        <h2>
-          Mariana tales - PR
-        </h2>
-        <p>
-          Mais que o conhecimento adquirido, mas a inspiração de ser e fazer a diferença no meio de tantos iguais.
-        </p>
-      </article>
-      <article>
-        <h2>
-          Julio Costa - SP
-        </h2>
-        <p>
-          Professores de alta qualidade, com didaticas atuais e efetivas para o mercado de trabalho.
-        </p>
-      </article>
+    <section id="meio">
+
+        <article id="conteudo">
+            Aqui vai o conteúdo <br />
+            Aqui vai o conteúdo <br />
+            Aqui vai o conteúdo <br />
+            Aqui vai o conteúdo <br />
+            Aqui vai o conteúdo <br />
+            Aqui vai o conteúdo <br />
+            Aqui vai o conteúdo <br />
+            Aqui vai o conteúdo <br />
+            Aqui vai o conteúdo <br />
+        </article>
+
+        <aside id="lateral">
+            <p>Barra lateral</p>
+        </aside>
+
     </section>
 
-    <footer>
-      <center>
-        © TEC.HACKING 2017. Todos os direitos reservados.
-      </center>
+    <footer id="rodape">
+        <h2>Rodapé da página</h2>
     </footer>
 
-  </body>
+    </body>
 </html>
