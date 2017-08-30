@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="265f68ba-d221-43b7-a49c-cbf4ef92569e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/detalhesdocurso.html" afterPath="$PROJECT_DIR$/detalhesdocurso.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/disciplinas.html" afterPath="$PROJECT_DIR$/disciplinas.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,17 +34,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="disciplinas.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="disciplinas.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/disciplinas.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="697">
-              <caret line="155" column="52" lean-forward="false" selection-start-line="155" selection-start-column="52" selection-end-line="155" selection-end-column="52" />
+              <caret line="208" column="89" lean-forward="false" selection-start-line="208" selection-start-column="89" selection-end-line="208" selection-end-column="89" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detalhesdocurso.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="detalhesdocurso.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/detalhesdocurso.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
@@ -96,11 +97,11 @@
         <option value="$PROJECT_DIR$/Disciplinas.html" />
         <option value="$PROJECT_DIR$/Detalhesdocurso.html" />
         <option value="$PROJECT_DIR$/noticias.html" />
-        <option value="$PROJECT_DIR$/disciplinas.html" />
         <option value="$PROJECT_DIR$/Pictures/Exemplos-Aula04.html" />
         <option value="$PROJECT_DIR$/homepage.html" />
         <option value="$PROJECT_DIR$/listadecursos.html" />
         <option value="$PROJECT_DIR$/detalhesdocurso.html" />
+        <option value="$PROJECT_DIR$/disciplinas.html" />
       </list>
     </option>
   </component>
@@ -584,14 +585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/disciplinas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="155" column="52" lean-forward="false" selection-start-line="155" selection-start-column="52" selection-end-line="155" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pictures/Exemplos-Aula04.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -620,6 +613,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="68" lean-forward="false" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/disciplinas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="208" column="89" lean-forward="false" selection-start-line="208" selection-start-column="89" selection-end-line="208" selection-end-column="89" />
           <folding />
         </state>
       </provider>
