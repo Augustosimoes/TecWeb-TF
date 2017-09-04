@@ -1,13 +1,53 @@
-       body {
+      body {
           font-family: Verdana,sans-serif;
           font-size: 0.9em;
       }
 
-      header {
-          padding: 1%;
+      header  {
+          position: relative;
+          width: 1220px;
+          max-width: 90%;
+          height: 120px;
+          top: 0px;
+          right: 0px;
+          left: 0px;
+          margin: 0px auto;
           color: white;
           background-color: black;
       }
+
+      header aside {
+        position: absolute;
+        width: 120px;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+
+        border: 1px solid red;
+        background-color: rgba(255, 0, 0, 0.1);
+      }
+
+      header section {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 60px;
+        left: 120px;
+
+        border: 1px solid green;
+        background-color: rgba(0, 255, 0, 0.1);
+      }
+      header article {
+        position: absolute;
+        top: 60px;
+        right: 0px;
+        bottom: 0px;
+        left: 120px;
+
+        border: 1px solid blue;
+        background-color: rgba(0, 0, 255, 0.1);
+      }
+
       footer {
           padding: 10px;
           color: white;
@@ -35,11 +75,4 @@
       nav ul li {
           display: inline;
           margin: 5px;
-      }
-      aside{
-
-                float: left;
-                background-color: white; /*cor de fundo*/
-                padding: 10px; /*espaço entre a borda e o conteúdo do elemento*/
-                width: 15% /*largura*/
       }
