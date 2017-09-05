@@ -14,7 +14,17 @@
           top: 0px;
           bottom: 0px;
           left: 0px;
+
       }
+
+      header section{
+          position: absolute;
+          top: 60px;
+          right: 0px;
+          bottom: 0px;
+          left: 120px;
+      }
+
 
       footer {
           padding: 10px;
