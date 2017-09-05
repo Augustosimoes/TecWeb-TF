@@ -22,9 +22,12 @@
         top: 0px;
         bottom: 0px;
         left: 0px;
+        max-width:200px;
+        max-height:150px;
+        width: auto;
+        height: auto;
 
-        border: 1px solid red;
-        background-color: rgba(255, 0, 0, 0.1);
+
       }
 
       header section {
