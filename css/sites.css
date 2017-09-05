@@ -5,7 +5,7 @@
 
       header  {
           position: relative;
-          width: 1220px;
+          /*width: 1220px;*/
           max-width: 90%;
           height: 120px;
           top: 0px;
@@ -15,26 +15,23 @@
           color: white;
           background-color: black;
       }
-      .logo div{
-          position: absolute;
-          width: 120px;
-          top: 0px;
-          bottom: 0px;
-          left: 0px;
+      .logo{
+          display:inline-block;
+          width: 20%;
       }
-      .bax div{
-          position: absolute;
+      .bax{
+         /* position: absolute;
           top: 60px;
           right: 0px;
           bottom: 0px;
-          left: 120px;
+          left: 120px;*/
+          display:block;
       }
-      .sup div{
-          position: absolute;
-          top: 0px;
-          right: 0px;
-          bottom: 60px;
-          left: 120px;
+      .info {
+        width: 80%
+      }
+      .sup{
+          display:block;
 
       }
       .logo img {
